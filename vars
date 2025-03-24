@@ -1,0 +1,7 @@
+disk='vda' 			 # disk where gentoo will be installed
+encrpass='root'			 # luks password
+dnsserver='192.168.122.1'	 # dns server in /etc/resolv.conf
+mkopts="-j5 -l6"		 # compilation parameters  : behavior is to set the MAKEOPTS jobs value to the same number of threads returned by nproc
+username='toto'			 # user creation username
+pass='toto'			 # user username
+rootpass='toto'			 # root password
