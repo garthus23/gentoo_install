@@ -237,7 +237,7 @@ cat > /etc/unbound/var/dnssec-trust-anchors.key <<"EOF"
 EOF
 
 rc-update add unbound
-echo 'nameserver ::1 > /etc/resolv.conf
+echo 'nameserver ::1' > /etc/resolv.conf
 echo 'nameserver ::1' > /etc/resolv.conf.head
 
 EOT
