@@ -28,3 +28,8 @@ scp install.sh vars root@192.168.1.x:~/
 
 ## Launch the script
 ./install.sh
+
+## Launch Desktop
+log as user
+echo 'exec i3' > ~/.xinitrc
+startx
